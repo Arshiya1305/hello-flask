@@ -1,0 +1,27 @@
+# Virtualenv
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# SSH keys & sensitive files (defendively)
+*.pem
+*.ppk
+id_*.pub
+id_*
+
+# Common folders from home we don't want
+.aws/
+.azure/
+.cache/
+.ssh/
+.local/
