@@ -11,5 +11,5 @@ spec:
     - port: 8080
       targetPort: 8080
       protocol: TCP
-      nodePort: 30080   # choose any free nodePort in 30000-32767
+      nodePort: 30080   # Must be between 30000–32767
 

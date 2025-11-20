@@ -16,7 +16,7 @@ spec:
         app: hello-flask
     spec:
       imagePullSecrets:
-        - name: ghcr-secret      # <-- REQUIRED for private GHCR image
+        - name: ghcr-secret   # for private GHCR image
       containers:
         - name: hello-flask
           image: ghcr.io/arshiya1305/hello-flask:1.0
